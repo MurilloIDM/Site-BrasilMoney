@@ -48,7 +48,7 @@ label[for="menuMobile"] {
     display: none;
     max-height: 0;
     transition: all 2s;
-    background-color: #ABC8E2;
+    background-color: #183152;
 }
 
 .subMenu:hover ul, .subMenu:active ul{
@@ -120,7 +120,7 @@ input[type="checkbox"]:checked + .menu {
     background-color: #375D81;
 }
 
-.linhaProgresso h2 {
+section h2 {
     text-transform: uppercase;
     text-align: center;
     font-weight: 800;
@@ -191,10 +191,56 @@ input[type="checkbox"]:checked + .menu {
     color: #375D81;
 }
 
+.secaoPerguntas {
+    background-color: #375D81;
+}
+
+.secaoPerguntas section {
+    text-align: justify;
+    padding: 0 30px 20px;
+}
+
+.secaoPerguntas details {
+    border-bottom: 1px solid black;
+}
+
+.secaoPerguntas summary {
+    font-weight: 700;
+    font-size: 17px;
+    padding: 5px 0 10px;
+    outline: none;
+}
+
+.secaoPerguntas p {
+    color: #C4D7ED;
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
+
+footer {
+    background-color: #183152;
+}
+
+footer div {
+    text-align: center;
+    padding: 10px;
+}
+
+footer img {
+    margin-right: 10px;
+}
+
+footer p {
+    padding: 5px 0 10px;
+    text-align: center;
+    font-weight: 600;
+    color: #E1E6FA;
+    font-size: 14px;
+}
+
 @media screen and (min-width: 1023px) {
     .caixaGeral {
         width: 1000px;
-        border: 1px solid black;
     }
 
     label[for="menuMobile"] {
@@ -226,7 +272,8 @@ input[type="checkbox"]:checked + .menu {
 
     .subMenu ul {
         width: 150%;
-        border-radius: 8px;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
         text-align: center;
         position: absolute;
     }
@@ -254,7 +301,8 @@ input[type="checkbox"]:checked + .menu {
     }
 
     .convidados a, .convidados a:visited {
-        display: inline-block;
+        width: 30%;
+        margin: 0 auto;
     }
 
     .convidados .imagemConvidado {
