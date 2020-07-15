@@ -82,14 +82,14 @@ input[type="checkbox"]:checked + .menu {
     text-align: center;
     font-weight: 800;
     font-size: 38px;
-    color: #E1E6FA;
+    color: #ABC8E2;
 }
 
 .conteudoApresentacao p {
     margin-bottom: 32px;
     text-align: center;
     font-weight: 700;
-    color: #FFFFCB;
+    color: #C4D7ED;
     width: 50%;
 }
 
@@ -101,7 +101,7 @@ input[type="checkbox"]:checked + .menu {
 
 .conteudoApresentacao p > span {
     display: inline;
-    color: #375D81;
+    color: #E1E6FA;
 }
 
 .conteudoApresentacao a, .conteudoApresentacao a:visited {
@@ -140,7 +140,6 @@ section h2 {
     border-bottom-left-radius: 26px;
     text-align: center;
     padding: 20px 15px;
-    height: 200px;
     width: 100%;
 }
 
@@ -167,14 +166,16 @@ section h2 {
 
 .convidados h3 {
     font-size: 24px;
+    margin-top: 24px;
     margin-bottom: 16px;
 }
 
 .convidados p{
     width: 100%;
     font-size: 16px;
+    line-height: 21px;
     text-align: justify;
-    margin-bottom: 16px;
+    margin-bottom: 32px;
 }
 
 .convidados a, .convidados a:visited {
@@ -243,14 +244,7 @@ footer p {
 }
 
 #voltarTopo {
-    color: 183152;
-    border-radius: 100%;
-    padding: 10px 12px;
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    text-decoration: none;
-    background-color: #d8d8d8;
+    display: none;
 }
 
 @media screen and (min-width: 1023px) {
@@ -331,6 +325,18 @@ footer p {
     .convidados img {
         width: 100%;
         border-radius: 20%;
+    }
+
+    #voltarTopo {
+        display: inline-block;
+        color: 183152;
+        border-radius: 100%;
+        padding: 10px 12px;
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        text-decoration: none;
+        background-color: #d8d8d8;
     }
     
 }
