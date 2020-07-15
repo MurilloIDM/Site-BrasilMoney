@@ -56,7 +56,7 @@ label[for="menuMobile"] {
 }
 
 .subMenu:hover ul, .subMenu:active ul{
-    max-height: 117px;
+    max-height: 250px;
     display: block;
     opacity: 1;
 }
