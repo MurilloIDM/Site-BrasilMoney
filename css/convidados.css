@@ -1,0 +1,88 @@
+.bannerConvidado {
+    background-color: #183152;
+}
+
+.bannerConvidado img {
+    width: 100%;
+}
+
+.sobreConvidado {
+    background-color: #375D81;
+}
+
+.sobreConvidado h1 {
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+    color: #E1E6FA;
+}
+
+.sobreConvidado p {
+    text-align: justify;
+    color: #ABC8E2;
+}
+
+.parametroConvidado {
+    background-color: #ABC8E2;
+}
+
+.dadosSociais a {
+    display: block;
+}
+
+.dadosSociais img {
+    display: block;
+    margin: 0 auto;
+    width: 120px;
+}
+
+.dadosSociais p {
+    text-align: center;
+    font-weight: 800;
+    color: #375D81;
+    font-size: 18px;
+    margin: 24px 0;
+}
+
+.dadosSociais span {
+    display: block;
+}
+
+.caixaGeral h2 {
+    color: #183152;
+}
+
+.conteudoConvidado {
+    background-color: #C4D7ED;
+}
+
+.conteudoConvidado a {
+    display: block;
+}
+
+.conteudoConvidado img {
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+    transition: all 0.2s;
+}
+
+.conteudoConvidado img:hover {
+    transform: translateY(-10px);
+    box-shadow: 2px 2px 2px black;
+}
+
+@media screen and (min-width: 767px) {
+    .conteudoConvidado img {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .conteudoConvidado img {
+        width: 100%;
+    }
+}
